@@ -46,7 +46,7 @@ public class oi{
 */
 
 /* exercicio 3.3, 2) 
-
+*/
 public class oi{
 	public static void main(String[] args){
 		int gastosJaneiro = 15000;
@@ -54,8 +54,7 @@ public class oi{
 		int gastosFevereiro = 23000;
 		int gastosTrimestre = gastosJaneiro + gastosMarco + gastosFevereiro;
 		double MediaMensal = gastosTrimestre / 3;
-		System.out.println(gastosTrimestre);
-		System.out.println(MediaMensal);
+		System.out.println(gastosTrimestre, MediaMensal);
 	}
 }
-*/
+

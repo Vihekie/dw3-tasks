@@ -46,7 +46,7 @@ public class oi{
 */
 
 /* exercicio 3.3, 2) 
-
+*/
 public class oi{
 	public static void main(String[] args){
 		int gastosJaneiro = 15000;
@@ -58,4 +58,4 @@ public class oi{
 		System.out.println(MediaMensal);
 	}
 }
-*/
+
