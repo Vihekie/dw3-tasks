@@ -1,0 +1,14 @@
+package POO;
+
+public class TestaFunc {
+	public static void main(String[] args){
+		Funcionario Jao = new Funcionario();
+		Jao.nome = "João";
+		Jao.date = "22/02/2017";
+		Jao.dep = "IT";
+		Jao.salario = 100.00;
+		Jao.recebeAumento(10);
+		System.out.println(Jao.salario);
+		System.out.println(Jao.calculaGanhoAnual());
+	}
+}

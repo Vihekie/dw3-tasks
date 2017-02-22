@@ -1,0 +1,8 @@
+package POO;
+
+public class Node {
+	int valor;
+	public void Node(int s){
+		int this.valor = valor;
+	}
+}

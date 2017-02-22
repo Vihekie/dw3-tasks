@@ -1,0 +1,8 @@
+package POO;
+
+public class Lista {
+	Node first;
+	public Lista(Node oi){
+		this.first = oi;
+	}
+}

@@ -1,0 +1,30 @@
+package POO;
+
+public class Funcionario{
+	Data dataDeEntrada;
+	String nome;
+	String dep;
+	double salario;
+	String date;
+	String RG;
+	public double recebeAumento(double s){
+		this.salario = this.salario + s;
+		return this.salario;
+		
+	}
+	public double calculaGanhoAnual(){
+		return this.salario * 12;
+	}
+	public void mostra(){
+		System.out.println(nome);
+		System.out.println(dep);
+		System.out.println(salario);
+		System.out.println(date);
+		System.out.println(RG);
+		System.out.println(this.calculaGanhoAnual());
+		System.out.println(this.dataDeEntrada.dia);
+		System.out.println(this.dataDeEntrada.mes);
+		System.out.println(this.dataDeEntrada.ano);
+	}
+	}
+}

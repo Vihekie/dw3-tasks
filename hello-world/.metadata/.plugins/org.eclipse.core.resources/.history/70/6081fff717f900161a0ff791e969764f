@@ -1,0 +1,12 @@
+package POO;
+
+public class Lista {
+	Node first;
+	Node last;
+	public Lista(Node oi){
+		this.first = oi;
+	}
+	public void append(Node oi){
+		
+	}
+}

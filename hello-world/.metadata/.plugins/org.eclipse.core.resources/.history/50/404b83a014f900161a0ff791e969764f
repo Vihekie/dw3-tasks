@@ -1,0 +1,18 @@
+package POO;
+
+public class Funcionario{
+	String nome;
+	String dep;
+	double salario;
+	String date;
+	String RG;
+	public double recebeAumento(double s){
+		this.salario = this.salario + s;
+		return this.salario;
+		
+	}
+	public double calculaGanhoAnual(){
+		return this.salario * 12;
+	}
+	
+}

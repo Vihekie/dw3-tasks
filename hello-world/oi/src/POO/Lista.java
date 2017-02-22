@@ -1,0 +1,21 @@
+package POO;
+
+public class Lista {
+	Node first;
+	Node last;
+	int tamanho = 0;
+	public Lista(Node oi){
+		this.first = oi;
+	}
+	public void append(Node oi){
+		oi.anterior = this.last;
+		oi.proximo = null;
+		this.last = oi;
+		this.tamanho += 1;
+	}
+	public void imprimir(){
+		for(int i = 0; i < this.tamanho;i++){
+			System.out.println(x);
+		}
+	}
+}
